@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C / C++ build outputs
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.exe
+bonus/kernel/m3bench
+bonus/ggml/ggml_driver
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Transient experiment files & run redirects
+results/hw/.stop_logger
+results/experiment/*.tmp
+*.time
+*.err
+*.data
